@@ -10,6 +10,7 @@ A fully functional bluetooth module for polybar that adds an icon that changes d
 ## Dependencies
 - Font Awesome 5 Free
 - Systemd
+- Rofi
 
 ## Installation
 
