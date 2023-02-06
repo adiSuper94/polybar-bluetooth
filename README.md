@@ -1,5 +1,5 @@
 # Polybar bluetooth module
-A fully functional bluetooth module for polybar that adds an icon that changes dinamically accordingly to the bluetooth status.
+A lightweight bluetooth module for polybar that adds an icon that changes dynamically accordingly to the bluetooth status.
 
 ![on](https://github.com/adiSuper94/polybar-bluetooth/blob/master/screenshots/on.png) When the bluetooth is on
 
@@ -24,7 +24,6 @@ exec = path/to/scripts/bluetooth-tray-icon.sh
 interval = 2
 click-left = exec path/to/scripts/config/polybar/toggle_bluetooth.sh
 format-padding = 1
-format-background = #000000
 format-foreground = #ffffff
 ```
 ## Usage
