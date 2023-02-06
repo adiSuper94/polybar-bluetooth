@@ -1,16 +1,15 @@
 # Polybar bluetooth module
 A fully functional bluetooth module for polybar that adds an icon that changes dinamically accordingly to the bluetooth status.
 
-![on](https://github.com/msaitz/polybar-bluetooth/blob/master/screenshots/on.png) When the bluetooth is on
+![on](https://github.com/adiSuper94/polybar-bluetooth/blob/master/screenshots/on.png) When the bluetooth is on
 
-![off](https://github.com/msaitz/polybar-bluetooth/blob/master/screenshots/off.png) When the bluetooth is off
+![off](https://github.com/adiSuper94/polybar-bluetooth/blob/master/screenshots/off.png) When the bluetooth is off
 
-![connected](https://github.com/msaitz/polybar-bluetooth/blob/master/screenshots/connected.png) When the bluetooth is connected to a device
+![connected](https://github.com/adiSuper94/polybar-bluetooth/blob/master/screenshots/connected.png) When the bluetooth is connected to a device
 
 ## Dependencies
 - Font Awesome 5 Free
 - Systemd
-- Blueberry
 
 ## Installation
 
@@ -20,10 +19,9 @@ Add  the module to your polybar config file
 ```ini
 [module/bluetooth]
 type = custom/script
-exec = path/to/scripts/bluetooth.sh
+exec = path/to/scripts/bluetooth-tray-icon.sh
 interval = 2
-click-left = exec blueberry
-click-right = exec path/to/scripts/config/polybar/toggle_bluetooth.sh
+click-left = exec path/to/scripts/config/polybar/toggle_bluetooth.sh
 format-padding = 1
 format-background = #000000
 format-foreground = #ffffff
